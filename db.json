@@ -17,17 +17,17 @@
       },
       {
         "id": "4",
-        "givenAdvise": "Manage stress: Stress has a very significant impact on your mental health. Make sure to manage stress in healthy ways, such as through exercise, meditation, or talking to a trusted friend or family member.  Remember, mental health issues are common and treatable. With the right support, resources, and tools, it's possible to manage mental health challenges and achieve a greater sense of well-being. ",
+        "givenAdvise": "Manage stress: Stress has a very significant impact on your mental health. Make sure to manage stress in healthy ways, such as through exercise, meditation, or talking to a trusted friend or family member.      Remember, mental health issues are common and treatable. With the right support, resources, and tools, it's possible to manage mental health challenges and achieve a greater sense of well-being. ",
         "outcome": "Mentally unhealthy"
       },
       {
         "id": "5",
-        "givenAdvise": "Be patient and kind to yourself: Managing mental health issues is a journey that takes time and effort. Be patient with yourself and recognize that progress can be slow. Treat yourself with kindness and compassion and remember that recovery is possible. Most importantly, seek someone to talk to.         Remember, mental health issues are common and treatable. With the right support, resources, and tools, it's possible to manage mental health challenges and achieve a greater sense of well-being.",
+        "givenAdvise": "Be patient and kind to yourself: Managing mental health issues is a journey that takes time and effort. Be patient with yourself and recognize that progress can be slow. Treat yourself with kindness and compassion and remember that recovery is possible. Most importantly, seek someone to talk to.           Remember, mental health issues are common and treatable. With the right support, resources, and tools, it's possible to manage mental health challenges and achieve a greater sense of well-being.",
         "outcome": " Very mentally unhealthy!"
       },
       {
         "id": "6",
-        "givenAdvise": "Seek professional help: Mental health issues can be complex and challenging to manage. Seeking help from a mental health professional, such as a therapist or psychiatrist, can be an important first step in getting the support and treatment you need.          Remember, mental health issues are common and treatable. With the right support, resources, and tools, it's possible to manage mental health challenges and achieve a greater sense of well-being.",
+        "givenAdvise": "Seek professional help: Mental health issues can be complex and challenging to manage. Seeking help from a mental health professional, such as a therapist or psychiatrist, can be an important first step in getting the support and treatment you need.            Remember, mental health issues are common and treatable. With the right support, resources, and tools, it's possible to manage mental health challenges and achieve a greater sense of well-being.",
         "outcome": "Needs serious help!"
       }
     ]
