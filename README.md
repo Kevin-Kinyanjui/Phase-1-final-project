@@ -8,16 +8,16 @@ The project has been created by Kevin Kinyanjui
 ## Getting Started
 To use the Mental Awareness Day app, simply visit the website at https://kevin-kinyanjui.github.io/Phase-1-final-project/
 
-It's API json server can be found at https://my-json-server.typicode.com/Kevin-Kinyanjui/Phase-1-final-project
+It's API JSON server can be found at https://my-json-server.typicode.com/Kevin-Kinyanjui/Phase-1-final-project
 
 ## Setup
-The project uses CSS to create a physically appealing site to the user and Javascript to provide interactivity.
+The project uses CSS to create a physically appealing site to the user and JavaScript to provide interactivity.
 
 An API server has been set up to mock a JSON server for which the site uses to fetch data from and display it to the user.
 
-A db.json file is used to store the json data for the server.
+A db.json file is used to store the JSON data for the server.
 
-If statement have been used to calculate the final values according to the user input and a get command fetches appropriate response from the json server and dom manipulation methods used to show the response on the dom.
+If statement have been used to calculate the final values according to the user input and a get command fetches appropriate response from the json server and DOM manipulation methods used to show the response on the dom.
 
 ## Usage
  Select an option provided for each question to begin the assessment.
@@ -31,7 +31,7 @@ If statement have been used to calculate the final values according to the user 
 If you would like to contribute to the development of the Mental Health Checker, please submit a pull request to the GitHub repository at https://github.com/Kevin-Kinyanjui/Phase-1-final-project.
 
 ## Sources
-The questions are from a study done by Catherine Moore, a psychologist, holding an MBA and made available to the public by the company she is in called positivepsychology.
+The questions are from a study done by Catherine Moore, a psychologist, holding an MBA and made available to the public by the company positivepsychology LTD.
 
 They have also been Scientifically reviewed by Melissa Madeson, Ph.D.
 
@@ -39,8 +39,8 @@ They have also been Scientifically reviewed by Melissa Madeson, Ph.D.
 The Mental Awareness Day app is licensed under the MIT License.
 
 ## Copyright
-The project is the rightful property Kevin Kinyanjui.
-© 2023 Kevin Kinyanjui limited . All rights reserved. 
+The project is the rightful property of Kevin Kinyanjui.
+© 2023 Kevin Kinyanjui limited. All rights reserved. 
 
 
 
