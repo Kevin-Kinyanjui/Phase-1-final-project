@@ -10,26 +10,26 @@ function calculateValue() {
     let item6Value = parseInt(document.getElementById("item6").value);
     let totalValue = item1Value + item2Value + item3Value + item4Value + item5Value + item6Value;
     
-    fetch('https://my-json-server.typicode.com/Kevin-Kinyanjui/Phase-1-final-project/films')
+    fetch('https://my-json-server.typicode.com/Kevin-Kinyanjui/Phase-1-final-project/advise')
     .then(res => res.json())
     .then(data => {
         if (totalValue >= 75) {
-            document.getElementById("totalValue").innerHTML = data[0].title;
+            document.getElementById("totalValue").innerHTML = data[0].givenAdvise;
             //console.log('75')
         } else if (totalValue >= 60) {
-            document.getElementById("totalValue").innerHTML = data[1].title;
+            document.getElementById("totalValue").innerHTML = data[1].givenAdvise;
             //console.log('60')
         } else if (totalValue >= 45) {
-            document.getElementById("totalValue").innerHTML = data[2].title;
+            document.getElementById("totalValue").innerHTML = data[2].givenAdvise;
             //console.log('45')
         } else if (totalValue >= 30) {
-            document.getElementById("totalValue").innerHTML = data[2].title;
+            document.getElementById("totalValue").innerHTML = data[3].givenAdvise;
             //console.log('30')
         } else if (totalValue >= 15) {
-            document.getElementById("totalValue").innerHTML = data[2].title;
+            document.getElementById("totalValue").innerHTML = data[4].givenAdvise;
             //console.log('30')
         } else {
-            document.getElementById("totalValue").innerHTML = data[3].title;
+            document.getElementById("totalValue").innerHTML = data[5].givenAdvise;
             //console.log('0')
         }
 })}
