@@ -15,16 +15,22 @@ function calculateValue() {
     .then(data => {
         if (totalValue >= 75) {
             document.getElementById("totalValue").innerHTML = data[0].title;
-            console.log('75')
+            //console.log('75')
         } else if (totalValue >= 60) {
             document.getElementById("totalValue").innerHTML = data[1].title;
-            console.log('60')
+            //console.log('60')
         } else if (totalValue >= 45) {
             document.getElementById("totalValue").innerHTML = data[2].title;
-            console.log('45')
+            //console.log('45')
+        } else if (totalValue >= 30) {
+            document.getElementById("totalValue").innerHTML = data[2].title;
+            //console.log('30')
+        } else if (totalValue >= 15) {
+            document.getElementById("totalValue").innerHTML = data[2].title;
+            //console.log('30')
         } else {
             document.getElementById("totalValue").innerHTML = data[3].title;
-            console.log('0')
+            //console.log('0')
         }
 })}
 
