@@ -9,19 +9,39 @@ function calculateValue() {
     let item5Value = parseInt(document.getElementById("item5").value);
     let item6Value = parseInt(document.getElementById("item6").value);
     let totalValue = item1Value + item2Value + item3Value + item4Value + item5Value + item6Value;
-    document.getElementById("totalValue").innerHTML = "Total value: $" + totalValue;
     
-  }
-
-  document.addEventListener('DOMContentLoaded', fetchResults)
-  function fetchResults() {
     fetch('https://my-json-server.typicode.com/Kevin-Kinyanjui/Phase-1-final-project')
-      .then(res => res.json())
-      .then(data => data)
-    }
-  
+    .then(res => res.json())
+    .then(data => {
+        if (totalValue >= 15) {
+            document.getElementById("totalValue").innerHTML = "15";
+        } else if (totalValue >= 10) {
+            ocument.getElementById("totalValue").innerHTML = "10";
+        } else if (totalValue >= 5) {
+            ocument.getElementById("totalValue").innerHTML = "5";
+        } else if (totalValue >= 0) {
+            ocument.getElementById("totalValue").innerHTML = "0";
+        }
+})}
 
-  document.addEventListener('DOMContentLoaded', () => {
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
     let form = document.querySelector("#commentSection")
     form.addEventListener('submit', (e) => {
         e.preventDefault()
