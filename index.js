@@ -10,19 +10,19 @@ function calculateValue() {
     let item6Value = parseInt(document.getElementById("item6").value);
     let totalValue = item1Value + item2Value + item3Value + item4Value + item5Value + item6Value;
     
-    fetch('https://my-json-server.typicode.com/Kevin-Kinyanjui/Phase-1-final-project')
-    .then(res => res.json())
-    .then(data => {
+    //fetch('https://my-json-server.typicode.com/Kevin-Kinyanjui/Phase-1-final-project/films')
+    //.then(res => res.json())
+    //.then(data => {
         if (totalValue >= 15) {
             document.getElementById("totalValue").innerHTML = "15";
         } else if (totalValue >= 10) {
-            ocument.getElementById("totalValue").innerHTML = "10";
+            document.getElementById("totalValue").innerHTML = "10";
         } else if (totalValue >= 5) {
-            ocument.getElementById("totalValue").innerHTML = "5";
+            document.getElementById("totalValue").innerHTML = "5";
         } else if (totalValue >= 0) {
-            ocument.getElementById("totalValue").innerHTML = "0";
+            document.getElementById("totalValue").innerHTML = "0";
         }
-})}
+}//)}
 
 
 
