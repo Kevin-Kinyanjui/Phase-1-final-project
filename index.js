@@ -1,4 +1,3 @@
-
 document.getElementById('calcButton').addEventListener("click", calculateValue)
 
 function calculateValue() {

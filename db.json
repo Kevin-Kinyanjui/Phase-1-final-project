@@ -2,33 +2,33 @@
     "advise": [
       {
         "id": "1",
-        "givenAdvise": "The Giant Gila Monster",
-        "outcome": "108"
+        "givenAdvise": " Congratulations! Your mental health is very stable. Only advise i can give you is to practice gratitude: Practicing gratitude can help improve your overall mental well-being. Take time each day to reflect on the things in your life that you're grateful for.",
+        "outcome": "Mentally healthy."
       },
       {
         "id": "2",
-        "givenAdvise": "Manos: The Hands Of Fate",
-        "outcome": "118"
+        "givenAdvise": "You seem to be very stable. Nothing to worry about. All i can advise you is, build strong relationships: Having strong, supportive relationships can help you maintain good mental health. Make sure to spend time with friends and family, and don't be afraid to reach out for support when you need it.",
+        "outcome": " Emotionally stable."
       },
       {
         "id": "3",
-        "givenAdvise": "Time Chasers",
-        "outcome": "93"
+        "givenAdvise": "Practice mindfulness and relaxation techniques: Mindfulness and relaxation techniques, such as meditation, deep breathing, and yoga, can help reduce symptoms of anxiety and depression and improve overall mental well-being.",
+        "outcome": "Emotional"
       },
       {
         "id": "4",
-        "givenAdvise": "The Touch Of Satan",
-        "outcome": "101"
+        "givenAdvise": "Manage stress: Stress has a very significant impact on your mental health. Make sure to manage stress in healthy ways, such as through exercise, meditation, or talking to a trusted friend or family member.  Remember, mental health issues are common and treatable. With the right support, resources, and tools, it's possible to manage mental health challenges and achieve a greater sense of well-being. ",
+        "outcome": "Mentally unhealthy"
       },
       {
         "id": "5",
-        "givenAdvise": "Santa Claus Conquers The Martians",
-        "outcome": "96"
+        "givenAdvise": "Be patient and kind to yourself: Managing mental health issues is a journey that takes time and effort. Be patient with yourself and recognize that progress can be slow. Treat yourself with kindness and compassion and remember that recovery is possible. Most importantly, seek someone to talk to.         Remember, mental health issues are common and treatable. With the right support, resources, and tools, it's possible to manage mental health challenges and achieve a greater sense of well-being.",
+        "outcome": " Very mentally unhealthy!"
       },
       {
         "id": "6",
-        "givenAdvise": "Seek professional help: Mental health issues can be complex and challenging to manage. Seeking help from a mental health professional, such as a therapist or psychiatrist, can be an important first step in getting the support and treatment you need.",
-        "outcome": "112"
+        "givenAdvise": "Seek professional help: Mental health issues can be complex and challenging to manage. Seeking help from a mental health professional, such as a therapist or psychiatrist, can be an important first step in getting the support and treatment you need.          Remember, mental health issues are common and treatable. With the right support, resources, and tools, it's possible to manage mental health challenges and achieve a greater sense of well-being.",
+        "outcome": "Needs serious help!"
       }
     ]
   }
