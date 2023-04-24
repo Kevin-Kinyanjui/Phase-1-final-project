@@ -35,22 +35,6 @@ function calculateValue() {
 })}
 
 
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
 document.addEventListener('DOMContentLoaded', () => {
     let form = document.querySelector("#commentSection")
     form.addEventListener('submit', (e) => {
