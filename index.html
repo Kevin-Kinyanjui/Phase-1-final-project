@@ -31,7 +31,7 @@
         </p>
        </form>
 
-       <h3 class="takeQuiz"><i>Take this simple quiz to know more about your own mental health and how you can improve it! Select option that applies to you the most. </i> </h3> </hr>
+       <h3 class="takeQuizHeading"><i>Take this simple quiz to know more about your own mental health and how you can improve it! Select option that applies to you the most.  </i> </h3> </hr>
        
        <div class="box">
         <h2> Does “mental health” and happiness mean the same to you? </h2>
@@ -118,18 +118,23 @@
 
     </br>
       <p id="totalValue"></p>
+      <h3 class="takeQuizHeading"> <i> Click submit when done then wait a few seconds. </i></h3>
     </br>
       <input type="button" class="button" value="Submit" id="calcButton">
 
     </br>   </br>
+    <h3 class="takeQuizHeading"> <i> Feel free to leave a comment! </i></h3>
+    </br>
+
+    <form id="commentContainer">    </form>
+    </br>   </br>
+
     <form id="commentSection" action="#" method="POST">
         <label for="newComment">Comment:</label>
-        <input type="text" id="newCommentDescription" name="newComment" placeholder="comment">
+        <input type="text" id="newCommentDescription" name="newComment" class="commentBox">
         <input type="submit" value="Add comment">
   </form>
-  <form id="commentContainer">
-
-  </form>
+  
 
    
 	</body>

@@ -1,11 +1,13 @@
 .box {
     width: 80%;
-    height: 200px;
+    height: 180px;
     background-color: lightblue;
     border: 1px solid black;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 2px 2px 5px grey;
+    text-align: center;
+    margin-left: 70px;
   }
 
   .button {
@@ -20,6 +22,7 @@
     outline: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-left: 40%;
   }
   
   .button:hover {
@@ -53,7 +56,7 @@
     margin-bottom: 1rem;
   }
 
-.takeQuiz {
+.takeQuizHeading {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -62,5 +65,9 @@
     margin-bottom: 1rem;
 }
 
+.commentBox {
+    width: 600px;
+    height: 200px;
+}
 
 
