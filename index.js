@@ -13,22 +13,20 @@ function calculateValue() {
     fetch('https://my-json-server.typicode.com/Kevin-Kinyanjui/Phase-1-final-project/films')
     .then(res => res.json())
     .then(data => {
-        //const movies = data.films
-        data.forEach(data =>
-        console.log(data.title)
-        )
-          })}
-        /*
-        if (totalValue >= 15) {
-            document.getElementById("totalValue").innerHTML = '15';
-        } else if (totalValue >= 10) {
-            document.getElementById("totalValue").innerHTML = "10";
-        } else if (totalValue >= 5) {
-            document.getElementById("totalValue").innerHTML = "5";
-        } else if (totalValue >= 0) {
-            document.getElementById("totalValue").innerHTML = data.title;
+        if (totalValue >= 75) {
+            document.getElementById("totalValue").innerHTML = data[0].title;
+            console.log('75')
+        } else if (totalValue >= 60) {
+            document.getElementById("totalValue").innerHTML = data[1].title;
+            console.log('60')
+        } else if (totalValue >= 45) {
+            document.getElementById("totalValue").innerHTML = data[2].title;
+            console.log('45')
+        } else {
+            document.getElementById("totalValue").innerHTML = data[3].title;
+            console.log('0')
         }
-})}*/
+})}
 
 
 
