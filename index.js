@@ -15,7 +15,7 @@ function calculateValue() {
 
   document.addEventListener('DOMContentLoaded', fetchResults)
   function fetchResults() {
-    fetch('http://localhost:3000/films')
+    fetch('https://my-json-server.typicode.com/Kevin-Kinyanjui/Phase-1-final-project')
       .then(res => res.json())
       .then(data => data)
     }
