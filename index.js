@@ -45,7 +45,7 @@ function comment() {
 
     const newComment = document.createElement('li');
         // delete comment
-	btn.addEventListener('click', handleDelete)
+	newComment.addEventListener('click', handleDelete)
 
     newComment.innerHTML = `<strong>${name}</strong>: ${comment}`;
     commentList.appendChild(newComment);
