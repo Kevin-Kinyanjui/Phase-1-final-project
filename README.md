@@ -13,6 +13,8 @@ It's API JSON server can be found at https://my-json-server.typicode.com/Kevin-K
 ## Setup
 The project uses CSS to create a physically appealing site to the user and JavaScript to provide interactivity.
 
+User first interacts with home page and can use the navigation bar which is always fixed at the top to navigate through the entire site.
+
 An API server has been set up to mock a JSON server for which the site uses to fetch data from and display it to the user.
 
 A db.json file is used to store the JSON data for the server.
@@ -21,11 +23,13 @@ If statement have been used to calculate the final values according to the user 
 
 ## Usage
  Select an option provided for each question to begin the assessment.
-1. Answer each question truthfully and to the best of your ability.
-2. Once you have completed all questions, click the "Submit" button.
-3. You will receive feedback on your mental health status, including any areas of concern and suggested resources for improvement.
-4. If you have any comments or suggestions on how to improve the app, feel free to add it to the comments section after your review.
-5. Feel free to click the "x" button in comment section to delete a comment.
+
+1. Use the navigation bar to go to the desired destination on the website.
+2. Answer each question truthfully and to the best of your ability.
+3. Once you have completed all questions, click the "Submit" button.
+4. You will receive feedback on your mental health status, including any areas of concern and suggested resources for improvement.
+5. If you have any comments or suggestions on how to improve the app, feel free to add it to the comments section after your review.
+6. Feel free to click the "x" button in comment section to delete a comment.
 
 ## Contributing
 If you would like to contribute to the development of the Mental Health Checker, please submit a pull request to the GitHub repository at https://github.com/Kevin-Kinyanjui/Phase-1-final-project.
