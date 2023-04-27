@@ -33,27 +33,26 @@ function calculateValue() {
         }
 })}
 
+document.getElementById("submitButton").addEventListener('click', comment)
+function comment() {
+    const commentForm = document.getElementById('comment-form');
+    const commentList = document.getElementById('comment-list');
 
-document.addEventListener('DOMContentLoaded', () => {
-    let form = document.querySelector("#commentSection")
-    form.addEventListener('submit', (e) => {
-        e.preventDefault()
-        makeComment(e.target.newComment.value)
-        form.reset()
-    })
-})
+    commentForm.addEventListener('submit', function(event) {
+    event.preventDefault();
+    const name = document.getElementById('name').value;
+    const comment = document.getElementById('comment').value;
 
-function makeComment(comment) {
-let p = document.createElement('p')
-let btn = document.createElement('button')
+    const newComment = document.createElement('li');
+        // delete comment
+	btn.addEventListener('click', handleDelete)
 
-btn.addEventListener('click', handleDelete)
-btn.textContent = 'x'
-btn.style.backgroundColor = "lightblue"
-p.textContent = `${comment}     `
-p.appendChild(btn)
+    newComment.innerHTML = `<strong>${name}</strong>: ${comment}`;
+    commentList.appendChild(newComment);
 
-document.querySelector('#commentContainer').appendChild(p)
+    document.getElementById('name').value = '';
+    document.getElementById('comment').value = '';
+    });
 }
 
 function handleDelete (e){

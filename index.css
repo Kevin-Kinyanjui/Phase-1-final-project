@@ -1,73 +1,322 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  /*background: linear-gradient(to bottom, #b0c4de, #f5f5dc);*/
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  font-weight: bold;
+}
+
+
+#hero {
+  background-image: url("./src/pic.jpeg");
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  padding: 100px;
+  text-align: center;
+}
+
+#hero h1 {
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+.btn {
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #555;
+  cursor: pointer;
+}
+
+/* About section styles */
+#about {
+  padding: 50px;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 2rem;
+}
+
+/* Services section styles */
+#services {
+  background-color: #f2f2f2;
+  padding: 200px;
+  text-align: center;
+}
+
+#services h2 {
+  font-size: 2rem;
+}
+
+#services ul {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+#services li {
+  margin-right: 30px;
+}
+
+#services i {
+  color: #333;
+  margin-right: 10px;
+}
+
+/* Testimonials section styles */
+#testimonials {
+  padding: 50px;
+  text-align: center;
+}
+
+#testimonials h2 {
+  font-size: 2rem;
+}
+
+.testimonial {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+
+.testimonial blockquote {
+  font-style: italic;
+}
+
+.testimonial cite {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Contact section styles */
+#contact {
+  padding: 50px;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 2rem;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+form button[type="submit"] {
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+
+form button[type="submit"]:hover {
+  background-color: #555;
+  cursor: pointer
+}
+
 .box {
-    width: 80%;
-    height: 180px;
-    background-color: lightblue;
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 2px 2px 5px grey;
-    text-align: center;
-    margin-left: 70px;
-  }
+  width: 80%;
+  height: 180px;
+  background-color: rgb(230, 212, 173);
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 2px 2px 5px grey;
+  text-align: center;
+  margin-left: 70px;
+}
 
-  .button {
-    display: inline-block;
-    padding: 10px 20px;
-    border-radius: 25px;
-    background-color: #4CAF50;
-    color: white;
-    font-size: 16px;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-left: 40%;
-  }
-  
-  .button:hover {
-    background-color: #3e8e41;
-  }
-  
-  .button:active {
-    background-color: #3e8e41;
-    transform: translateY(2px);
-  }
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 40%;
+}
 
-  #body {
-    background: linear-gradient(to bottom, #b0c4de, #f5f5dc);
-    background-image: url("src/pic.jpeg");
-    background-size: cover;
-  }
+.button:hover {
+  background-color: #3e8e41;
+}
 
-  .heading {
-    font-size: 2.5rem;
-    font-weight: bold;
-    text-align: center;
-    color: #333;
-    text-shadow: 2px 2px #fff;
-  }
+.button:active {
+  background-color: #3e8e41;
+  transform: translateY(2px);
+}
 
-  .introForm {
-    font-size: 1rem;
-    line-height: 1.5;
-    color: #555;
-    text-align: center;
-    margin-bottom: 1rem;
-  }
+.heading2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  text-shadow: 2px 2px #fff;
+}
+
+.introForm {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+  text-align: center;
+  margin-bottom: 1rem;
+}
 
 .takeQuizHeading {
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: #333;
-    text-align: center;
-    margin-bottom: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #333;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
-.commentBox {
-    width: 600px;
-    height: 200px;
+#navbar {
+  z-index: 10000;
+  position: fixed;
+  top: 0px;
+  width: 100%;
 }
 
+/* comment section */
+
+.comments {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.comments h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.comments ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.comments li {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.comments li p {
+  margin: 0;
+}
+
+.comments li span {
+  font-weight: bold;
+}
+
+.comments form {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.comments form h3 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.comments form div {
+  margin-bottom: 10px;
+}
+
+.comments form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.comments form input[type="text"],
+.comments form input[type="email"],
+.comments form textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.comments form button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comments form button[type="submit"]:hover {
+  background-color: #0062cc;
+}
 

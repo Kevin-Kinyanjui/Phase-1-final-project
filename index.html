@@ -1,148 +1,223 @@
 <!DOCTYPE html>
 <html>
-
-	<head>
-			 <title> MAD </title>
-             <script defer src="index.js"> </script>
-             <link rel="stylesheet" href="index.css">
-	</head>
-	
-	<body id="body">
-        <h1 class="heading"><u> M<small>ental</small> A<small>wereness</small> D<small>ay.</small> </u> </h1>
-       <form class="introForm" >
-        <p>
-            <div> Mental awareness refers to the ability to recognize and understand one's own emotions, 
-            thoughts, and behaviors, as well as those of others. </div>It involves being aware of the impact 
-            that our emotions and behaviors have on ourselves and those around us.
-            <div>Mental awareness also encompasses recognizing when someone is experiencing mental health 
-            issues and knowing how to support them.</div>
-        </br>
-            <div>In recent years, mental awareness has gained increasing attention and importance in society.</div>
-            Many individuals struggle with mental health issues, and there is a growing recognition
-            that mental health is just as important as physical health. <div> It is important to promote 
-            mental awareness in order to reduce the stigma associated with mental health issues 
-            and to encourage individuals to seek help when they need it.</div>
-        </br>
-            <div>By promoting mental awareness, we can improve our own mental well-being as well 
-            as that of our communities.</div> This can lead to a more positive and supportive 
-            environment where individuals feel safe to discuss their mental health and seek 
-            the help they need.
-        </br>
+  <head>
+    <meta charset="UTF-8">
+    <title>MAD</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="index.js">     </script>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+		      <li><a href="#takeTest">Take test</a></li>
+          <li><a href="#testimonials">Feedback</a></li>
+		      <li><a href="#commentSection">Comment</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <h1>Welcome to My Website</h1>
+        <p> Mental Awereness Day is a program meant to help everyone improve their mental health</p>
+        <a href="#about" class="btn">Learn More</a>
+      </section>
+      <section id="about">
+        <h2>Mental health.</h2>
+        <p> 
+          <form class="introForm" >
+            <p>
+                <div> Mental awareness refers to the ability to recognize and understand one's own emotions, 
+                thoughts, and behaviors, as well as those of others. </div>It involves being aware of the impact 
+                that our emotions and behaviors have on ourselves and those around us.
+                <div>Mental awareness also encompasses recognizing when someone is experiencing mental health 
+                issues and knowing how to support them.</div>
+            </br>
+                <div>In recent years, mental awareness has gained increasing attention and importance in society.</div>
+                Many individuals struggle with mental health issues, and there is a growing recognition
+                that mental health is just as important as physical health. <div> It is important to promote 
+                mental awareness in order to reduce the stigma associated with mental health issues 
+                and to encourage individuals to seek help when they need it.</div>
+            </br>
+                <div>By promoting mental awareness, we can improve our own mental well-being as well 
+                as that of our communities.</div> This can lead to a more positive and supportive 
+                environment where individuals feel safe to discuss their mental health and seek 
+                the help they need.
+            </br>
+            </p>
+           </form>
         </p>
-       </form>
+        <a href="#contact" class="btn">Want more?</a>
+      </section>
+      <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+          <li><i class="fas fa-check"></i> Mental Health Checking.</li>
+          <li><i class="fas fa-check"></i> Learning all about menta health.</li>
+          <li><i class="fas fa-check"></i> Great advise from the leading psychologists.</li>
+        </ul>
+        <a href="#contact" class="btn">Get More Services</a>
+      </section>
 
-       <h3 class="takeQuizHeading"><i>Take this simple quiz to know more about your own mental health and how you can improve it! Select option that applies to you the most.  </i> </h3> </hr>
-       
+      <section id="takeTest">
+        <h2 class="takeQuizHeading"> Take the test.</h2>
+        <h3 class="takeQuizHeading"><i> Select option that applies to you the most.  </i> </h3> </hr>
+        
+        <div class="box">
+         <h2> Does “mental health” and happiness mean the same to you? </h2>
+         <form>
+             <label for="item1">choice 1:</label>
+             <select id="item1" name="item1">
+               <option value="0"> Choose an option </option>
+               <option value="0"> No </option>
+               <option value="5">Not sure</option>
+               <option value="10">They are closely linked.</option>
+               <option value="15">YES</option>
+             </select>
+         </form>
+       </div>
+     </br>
+ 
        <div class="box">
-        <h2> Does “mental health” and happiness mean the same to you? </h2>
+         <h2> Have you ever experienced an 'attack' of fear, anxiety, or panic? </h2>
+         <form>
+             <label for="item1">choice 2:</label>
+             <select id="item2" name="item2">
+               <option value="0"> Choose an option </option>
+               <option value="5">Not sure</option>
+               <option value="0"> YES </option>
+               <option value="15"> NO </option>
+               <option value="10"> Close but not as severe.</option>
+             </select>
+         </form>
+       </div>
+     </br>
+ 
+       <div class="box">
+         <h2> Do feelings of anxiety or discomfort around others bother you? </h2>
+         <form>
+             <label for="item1">choice 3:</label>
+             <select id="item3" name="item3">
+               <option value="0"> Choose an option </option>
+               <option value="15"> No </option>
+               <option value="5"> Sometimes </option>
+               <option value="10"> Not discomfort but i am introverted. </option>
+               <option value="0"> Yes </option>
+             </select>
+         </form>
+       </div>
+     </br>
+ 
+       <div class="box">
+         <h1> How would you describe your sleeping patterns and appetite over the past 4 months? </h1>
+         <form>
+             <label for="item1">choice 4:</label>
+             <select id="item4" name="item4">
+               <option value="0"> Choose an option </option>
+               <option value="0"> Gradually declining </option>
+               <option value="5"> Gradually inclining </option>
+               <option value="10"> They keep shifting from time to time </option>
+               <option value="15"> They have been consistent</option>
+             </select>
+         </form>
+       </div>
+     </br>
+ 
+ 
+       <div class="box">
+         <h1> How often over the past few weeks have you felt the future was bleak? </h1>
+         <form>
+             <label for="item1">choice 5:</label>
+             <select id="item5" name="item5">
+               <option value="0"> Choose an option </option>
+               <option value="0"> Almost always </option>
+               <option value="5">Often</option>
+               <option value="10">Rarely</option>
+               <option value="15"> Very Rarely </option>
+             </select>
+         </form>
+       </div>
+     </br>
+ 
+       <div class="box">
+         <h1> How supported do you feel by others around you, that is, your friends, family, or otherwise. </h1>
+         <form>
+             <label for="item1">choice 6:</label>
+             <select id="item6" name="item6">
+               <option value="0"> Choose an option </option>
+               <option value="5"> I consider myself the supporter.</option>
+               <option value="15"> I feel very supported </option>
+               <option value="0"> I consider myself a 'lone wolf'.</option>
+               <option value="10"> I am self sustained but receive occassional support.  </option>
+             </select>
+         </form>
+       </div>
+ 
+     </br>
+       <p id="totalValue">  </p>
+       <h3 class="takeQuizHeading"> <i> Click submit when done. </i></h3>
+     </br>
+       <input type="button" class="button" value="Submit" id="calcButton">
+   </section>
+
+      <section id="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial">
+          <blockquote>
+            This ia an awesome Website. Test was very accurate.
+          </blockquote>
+          <cite>Rhona Joy, Happy Customer</cite>
+        </div>
+        <div class="testimonial">
+          <blockquote>
+            This is a great website. The customer service is quite efficient!.
+          </blockquote>
+          <cite>Erick Mongare , Satisfied Customer</cite>
+        </div>
+      </section>
+
+      <section id="commentSection">
+        <div class="comments">
+          <h2>Comments</h2>
+          <ul id="comment-list">
+          </ul>
+          <form id="comment-form">
+            <h3>Add a Comment</h3>
+            <div>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+      
+            <div>
+              <label for="comment">Comment:</label>
+              <textarea id="comment" name="comment" required></textarea>
+            </div>
+            <div>
+              <button type="submit" id="submitButton">Submit Comment</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Us</h2>
         <form>
-            <label for="item1">choice 1:</label>
-            <select id="item1" name="item1">
-              <option value="0"> Choose an option </option>
-              <option value="0"> No </option>
-              <option value="5">Not sure</option>
-              <option value="10">They are closely linked.</option>
-              <option value="15">YES</option>
-            </select>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
         </form>
-      </div>
-    </br>
-
-      <div class="box">
-        <h2> Have you ever experienced an 'attack' of fear, anxiety, or panic? </h2>
-        <form>
-            <label for="item1">choice 2:</label>
-            <select id="item2" name="item2">
-              <option value="0"> Choose an option </option>
-              <option value="5">Not sure</option>
-              <option value="0"> YES </option>
-              <option value="15"> NO </option>
-              <option value="10"> Close but not as severe.</option>
-            </select>
-        </form>
-      </div>
-    </br>
-
-      <div class="box">
-        <h2> Do feelings of anxiety or discomfort around others bother you? </h2>
-        <form>
-            <label for="item1">choice 3:</label>
-            <select id="item3" name="item3">
-              <option value="0"> Choose an option </option>
-              <option value="15"> No </option>
-              <option value="5"> Sometimes </option>
-              <option value="10"> Not discomfort but i am introverted. </option>
-              <option value="0"> Yes </option>
-            </select>
-        </form>
-      </div>
-    </br>
-
-      <div class="box">
-        <h1> How would you describe your sleeping patterns and appetite over the past 4 months? </h1>
-        <form>
-            <label for="item1">choice 4:</label>
-            <select id="item4" name="item4">
-              <option value="0"> Choose an option </option>
-              <option value="0"> Gradually declining </option>
-              <option value="5"> Gradually inclining </option>
-              <option value="10"> They keep shifting from time to time </option>
-              <option value="15"> They have been consistent</option>
-            </select>
-        </form>
-      </div>
-    </br>
-
-      <div class="box">
-        <h1> How often over the past few weeks have you felt the future was bleak? </h1>
-        <form>
-            <label for="item1">choice 5:</label>
-            <select id="item5" name="item5">
-              <option value="0"> Choose an option </option>
-              <option value="0"> Almost always </option>
-              <option value="5">Often</option>
-              <option value="10">Rarely</option>
-              <option value="15"> Very Rarely </option>
-            </select>
-        </form>
-      </div>
-    </br>
-
-      <div class="box">
-        <h1> How supported do you feel by others around you, that is, your friends, family, or otherwise. </h1>
-        <form>
-            <label for="item1">choice 6:</label>
-            <select id="item6" name="item6">
-              <option value="0"> Choose an option </option>
-              <option value="5"> I consider myself the supporter.</option>
-              <option value="15"> I feel very supported </option>
-              <option value="0"> I consider myself a 'lone wolf'.</option>
-              <option value="10"> I am self sustained but receive occassional support.  </option>
-            </select>
-        </form>
-      </div>
-
-    </br>
-      <p id="totalValue"></p>
-      <h3 class="takeQuizHeading"> <i> Click submit when done then wait a few seconds. </i></h3>
-    </br>
-      <input type="button" class="button" value="Submit" id="calcButton">
-
-    </br>   </br>
-    <h3 class="takeQuizHeading"> <i> Feel free to leave a comment! </i></h3>
-    </br>
-
-    <form id="commentContainer">    </form>
-    </br>   </br>
-
-    <form id="commentSection" action="#" method="POST">
-        <label for="newComment">Comment:</label>
-        <input type="text" id="newCommentDescription" name="newComment" class="commentBox">
-        <input type="submit" value="Add comment">
-  </form>
-  
-
-   
-	</body>
-	
-</html>	
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Kevin's Website. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
