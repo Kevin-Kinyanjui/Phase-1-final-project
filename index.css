@@ -175,13 +175,14 @@ form button[type="submit"]:hover {
 }
 
 .box {
-  background-image: url("./src/pic.jpeg");
+  /*background-image: url("./src/6.jpg");*/
   background-position: center;
   background-size: cover;
   width: 800px;
-  height: 350px;
+  height: 200px;
   text-align: center;
-  margin-left: 300px;
+  margin-left: 20%;
+  animation: color-change 15s ease-in-out infinite;
 }
 
 .button {
