@@ -60,6 +60,13 @@ e.target.parentNode.remove()
 }
 
 
+document.getElementById("sendMessage").addEventListener('click', send)
+function send(event) {
+    const form = document.getElementById("sendForm")
 
+    event.preventDefault();
+    alert("Your message has been sent.")
 
+    form.reset()
+    };
 
