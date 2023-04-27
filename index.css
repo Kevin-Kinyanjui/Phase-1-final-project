@@ -175,15 +175,13 @@ form button[type="submit"]:hover {
 }
 
 .box {
-  width: 80%;
-  height: 180px;
-  background-color: rgb(230, 212, 173);
-  border: 1px solid black;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 2px 2px 5px grey;
+  background-image: url("./src/pic.jpeg");
+  background-position: center;
+  background-size: cover;
+  width: 800px;
+  height: 350px;
   text-align: center;
-  margin-left: 70px;
+  margin-left: 300px;
 }
 
 .button {
@@ -319,3 +317,19 @@ form button[type="submit"]:hover {
   background-color: #0062cc;
 }
 
+#takeTest {
+  background-color: #f4424b;
+  animation: color-change 15s ease-in-out infinite;
+}
+
+@keyframes color-change {
+  0% {
+    background-color: #f4424b;
+  }
+  50% {
+    background-color: #de24f4;
+  }
+  100% {
+    background-color: #4bdcf4;
+  }
+}
